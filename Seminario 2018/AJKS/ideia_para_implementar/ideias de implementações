@@ -1,0 +1,18 @@
+* viagem para portadores de necessidades especiais, como cadeira de rodas e etc...
+
+*adulto com menores de idade, vamos fazer um cadastro duplo? ou apenas colocar um observação como um checkbox contendo criança para reduzir o numero de acesntos?
+
+*toda viagem criada é enviado um email para o administrador, para o motorista e para a pessoa que está relacionada na viagem.
+
+*email de alerta sobre a viagem, 1 mês antes, 15 dias antes, 3 dias antes e 1 dia antes da viagem.
+
+*trigger de backup apenas na exclusão de dados tornando a inserção de dados mais perfomatica, deixando o backup a cargo do servidor.
+
+* criar logo, para cadastros e alterações usando setas para criar os logs e deixar o BD mais perfomatico
+
+* glosario para usuario, com instruções, perguntas frequentes
+
+*colocar na tabelas viagens a opçõas "lugares_vagos" notando que se for um carro são 4 lugares
+já que o carro precisa d eum motorista, e criar na procedure toda vez que alguem solicitar uma viagem diminur 1 vaga dentro do veiculo destinado ao id daquela viagem, checando antes se há vagas para o veiculo e checando se é na mesma cidade.  PS.: vOU PRECISAR CRIAR UM INNER JOIN
+
+* usuario fazer consultas só pelo seu CPF para suas viagens, sem precisar logar no sistema
